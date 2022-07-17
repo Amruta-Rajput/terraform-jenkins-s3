@@ -1,7 +1,7 @@
 
 resource "aws_s3_bucket_object" "example" {
-  key        = "index.html"
+  key        = "gameoflife.war"
   bucket     = aws_s3_bucket.sheruuuuu.id
-  source     = "gameoflife.war"
+  source     = "/mnt/gameoflife.war"
   
 }
